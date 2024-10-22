@@ -38640,7 +38640,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("div", { staticClass: "number" }, [
                     _c("small", [
-                      _vm._v("$ " + _vm._s(_vm.info.total_sold_amount))
+                      _vm._v("S/. " + _vm._s(_vm.info.total_sold_amount))
                     ])
                   ])
                 ])
@@ -38657,7 +38657,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "number" }, [
                   _c("small", [
-                    _vm._v("$ " + _vm._s(_vm.info.total_paid_amount))
+                    _vm._v("S/. " + _vm._s(_vm.info.total_paid_amount))
                   ])
                 ])
               ])
@@ -38675,7 +38675,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "number" }, [
                   _c("small", [
-                    _vm._v("$ " + _vm._s(_vm.info.total_outstanding))
+                    _vm._v("S/. " + _vm._s(_vm.info.total_outstanding))
                   ])
                 ])
               ])
@@ -38691,7 +38691,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "number" }, [
                   _c("small", [
-                    _vm._v("$ " + _vm._s(_vm.info.total_gross_profit))
+                    _vm._v("S/. " + _vm._s(_vm.info.total_gross_profit))
                   ])
                 ])
               ])
@@ -38707,7 +38707,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "number" }, [
                   _c("small", [
-                    _vm._v("$ " + _vm._s(_vm.info.total_net_profit))
+                    _vm._v("S/. " + _vm._s(_vm.info.total_net_profit))
                   ])
                 ])
               ])

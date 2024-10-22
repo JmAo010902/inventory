@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>@yield('title','Inventory')</title>
+    <title>@yield('title','OptiLock')</title>
 
     @include('include.header')
     <style>

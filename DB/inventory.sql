@@ -155,8 +155,8 @@ CREATE TABLE IF NOT EXISTS `migrations` (
 ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Volcando datos para la tabla db_inventory.migrations: ~16 rows (aproximadamente)
-DELETE FROM `migrations`;
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+DELETE FROM "migrations";
+INSERT INTO "migrations" ("id", "migration", "batch") VALUES
 	(1, '2014_10_12_000000_create_users_table', 1),
 	(2, '2014_10_12_100000_create_password_resets_table', 1),
 	(3, '2018_12_10_051212_create_products_table', 2),
